@@ -1,6 +1,9 @@
 Create react app with SASS
 
-This project has preconfigured a sass preprocessor.
+This project has preconfigured a sass preprocessor. This project also pulls down [Materialize](http://materializecss.com/) and
+shows an example of overriding some the default colors in Materialize.
+
+see here for accepted answer in [StackOverflow](https://stackoverflow.com/a/42515471/4841710)
 
 run
 
