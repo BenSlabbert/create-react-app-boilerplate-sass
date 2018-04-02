@@ -1,3 +1,10 @@
+//please put the paths as per yours project directory structure
+@import "../../node_modules/materialize-css/sass/components/color-variables";
+
+$primary-color: color("blue", "lighten-2") !default;
+$secondary-color: green !default;
+@import '../../node_modules/materialize-css/sass/materialize';
+
 .app {
   text-align: center;
 }
@@ -11,7 +18,7 @@
   background-color: #222;
   height: 150px;
   padding: 20px;
-  color: red;
+  color: $secondary-color;
 }
 
 .app-title {
